@@ -1,7 +1,7 @@
 [package]
-name = {{ project_name }}
+name = "{{ create_name }}"
 version = "0.1.0"
-edition = {{ "now" | date: "%Y" }}
+edition = "{{ "now" | date: "%Y" }}"
 
 [lib]
 crate-type = ["cdylib", "rlib"]

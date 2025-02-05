@@ -7,11 +7,14 @@
     "build": "webpack"
   },
   "dependencies": {
-    "wasm-example": "file:../wasm/pkg"
+    "{{ project-name }}": "file:../wasm/pkg"
   },
   "devDependencies": {
     "webpack": "^5.97.1",
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.0"
+  },
+  "resolutions": {
+    "{{ project-name }}": "file:../wasm/pkg"
   }
 }

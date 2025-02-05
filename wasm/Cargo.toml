@@ -1,5 +1,5 @@
 [package]
-name = "{{ create_name }}"
+name = "{{ project-name }}"
 version = "0.1.0"
 edition = "{{ "now" | date: "%Y" }}"
 

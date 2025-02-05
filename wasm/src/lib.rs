@@ -9,10 +9,5 @@ extern "C" {
 
 #[wasm_bindgen]
 pub fn greet() {
-    alert("Hello, wasm-game-of-life!");
-}
-
-#[wasm_bindgen]
-pub fn pow(b: i32, p: i32) -> i32 {
-    b.pow(p as u32)
+    alert("Hello there!");
 }
